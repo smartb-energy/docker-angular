@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/smartb-energy/docker-template.svg?branch=master)](https://travis-ci.org/smartb-energy/docker-template)
+[![Build Status](https://travis-ci.org/smartb-energy/docker-angular.svg?branch=master)](https://travis-ci.org/smartb-energy/docker-angular)
 #### Conventions
 ##### Files For Your Docker Image
 Store files used by the `ADD` or `COPY` directives in your `Dockerfile` in `files` directory of this repository.  The `files` directory functions as the relative root of your container's filesystem.  An example `Dockerfile` configuration would look like this:
