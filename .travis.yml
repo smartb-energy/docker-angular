@@ -1,0 +1,13 @@
+sudo: required
+
+language: ruby
+
+services:
+  - docker
+
+before_install:
+- bundle
+
+# rspec/serverspec
+script:
+- rspec spec/*
